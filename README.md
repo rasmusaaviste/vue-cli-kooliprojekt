@@ -1,26 +1,33 @@
 # test-cli
 
-## Project setup
+## Installeeri vue
 ```
-npm install
+npm install vue
 ```
 
-### Compiles and hot-reloads for development
+## Installeeri vue-cli globaalselt
+```
+npm install -g @vue/cli
+```
+
+### Tekita kaust kuhu projekti tahad panna ja nagiveeri samasse kausta
+```
+mkdir todo && cd /todo
+```
+
+### Klooni Git-i failid antud kausta
+```
+git clone https://github.com/rasmusaaviste/vue-cli-kooliprojekt 
+```
+### Käivita projekt
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
+### Projekti saab manageerida/seadistada ka GUI(Graphical User Interface) abil käsklusega
 ```
-npm run build
+vue ui
 ```
-
-### Run your tests
+### Rakendus jookseb vaikeseadistusega aadressil (seda saab muuta kaustas ```src/router/index.js```)
 ```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
+localhost:8080/
 ```
